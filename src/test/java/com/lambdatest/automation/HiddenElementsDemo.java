@@ -26,8 +26,8 @@ public class HiddenElementsDemo {
 
 
 
-    public String username = "sripriyapkulkarni";
-    public String accesskey = "0JtfDYxpML64zCQoyNfb9RBRkZSry5Q1LZ6LXPrJxbVJmVjx4M";
+    public String username = "username";
+    public String accesskey = "access_key";
 
     public static RemoteWebDriver driver;
     public String gridURL = "@hub.lambdatest.com/wd/hub";
@@ -42,8 +42,8 @@ public class HiddenElementsDemo {
         browserOptions.setPlatformName("Windows 11");
         browserOptions.setBrowserVersion("124.0");
         HashMap<String, Object> ltOptions = new HashMap<String, Object>();
-        ltOptions.put("username", "sripriyapkulkarni");
-        ltOptions.put("accessKey", "0JtfDYxpML64zCQoyNfb9RBRkZSry5Q1LZ6LXPrJxbVJmVjx4M");
+        ltOptions.put("username", "username");
+        ltOptions.put("accessKey", "accesskey");
         ltOptions.put("project", "Untitled");
         ltOptions.put("w3c", true);
         ltOptions.put("plugin", "java-testNG");
